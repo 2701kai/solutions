@@ -58,4 +58,5 @@ q
 
 ```bash
 git commit -am "mein Kommentar"
+# (c) Melisa
 ```
