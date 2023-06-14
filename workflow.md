@@ -25,7 +25,7 @@ nano ReadMe.md
 ```
 > darin rumtippen, z.B. "I do adore my teachers for their incredible patience", STRG + X, Änderungen speichern, back to CLI:
 
-```git
+```bash
 git status
 git commit -m update
 git status
@@ -34,7 +34,7 @@ git status
 
 > weitere Veränderungen:
 
-```git
+```bash
 code .
 # öffnet vs-code im jeweiligen Ordner, dort Datei bearbeiten, speichern mit STRG S, dann im Terminal:
 git add .
@@ -43,7 +43,7 @@ git push
 ```
 
 > Historie überprüfen
-```git
+```bash
 git log
 # Syntax: git checkout <hash> 
 # (also z.B. git checkout b64f3ded18518117afe82d05012104fc3c4f96b1)
@@ -56,7 +56,7 @@ q
 
 #### oh, das hatte ich nicht:
 
-```git
+```bash
 git commit -am "mein Kommentar"
 # (c) Melisa
 ```
